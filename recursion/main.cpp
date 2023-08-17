@@ -12,12 +12,12 @@ int main() {
 }
 
 void walk(int steps) {
-    //Iterative
+    // Iterative
     // for(int i = 0; i < steps; i++) {
     //     std::cout << "Walk" << std::endl;
     // }
 
-    //Recursive
+    // Recursive
     if (steps > 0) {
         walk(steps - 1);
         std::cout << "Walk" << std::endl;
